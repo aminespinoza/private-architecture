@@ -7,3 +7,8 @@ variable "rg_location" {
     type = string
     description = "Location of the features t be created"
 }
+
+variable "prefix" {
+    type = string
+    description = "Prefix for environment"
+}
